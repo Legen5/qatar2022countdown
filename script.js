@@ -94,12 +94,4 @@ window.addEventListener('load', () => {
     }
     
     init();
-
-    button.addEventListener('click', () => {
-        navigator.clipboard.writeText(`Missing ${timeLeft.d} days for the Qatar 2022 World Cup! Watch the countdown: https://fifaqatarcountdown.vercel.app`);
-        button.innerText = "COPIED!";
-        setTimeout(() => {
-            button.innerText = "SHARE";
-        }, 1000);
-    })
 });
