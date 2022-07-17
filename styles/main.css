@@ -277,27 +277,3 @@ h1 {
   margin-left: -50px;
   margin-top: -350px;
   }
-
-  .sharebtn .share-btn{
-    width: 150px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 30px;
-    border-radius: 5px;
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: fixed;
-    top: 85%;
-    left: 0%;
-    font: 700 14px/1 'Red Hat Text', sans-serif;
-    letter-spacing: 4px;
-    margin-left: 695px;
-    margin-top: -80px;
-}
-
-.sharebtn .share-btn:hover{
-    background: #fff;
-    color: #a90b3c;
-}
